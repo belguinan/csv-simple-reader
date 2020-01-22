@@ -1,0 +1,17 @@
+{
+    "name": "belguinan/csv-simple-reader",
+    "description": "CSV files made simple.",
+    "type": "package",
+    "authors": [
+        {
+            "name": "noureddine belguinan",
+            "email": "nor15dine@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {}
+}
