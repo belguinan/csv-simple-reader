@@ -14,12 +14,12 @@ composer require belguinan/csv-simple-reader
 // Read csv file
 $csv = new CsvExporter();
 foreach ($csv->readFrom('test.csv') as $row) {
-	var_dump($row);
+    var_dump($row);
 }
 ```
 
 ```php
-// your array to convert
+// your array of data to process as csv
 $data = ..;
 $csv = new CsvExporter($data, $headers);
 ```
