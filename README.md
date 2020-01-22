@@ -1,3 +1,5 @@
+# CSV Simple Reader
+
 This is a simple PHP class that allow you to **read, save, export and download** your array as **csv** with no dependencies.
 
 ## Install
