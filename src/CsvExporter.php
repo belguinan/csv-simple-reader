@@ -112,9 +112,11 @@ class CsvExporter
             $headers = array_keys($this->data[0]);
         }
 
-        fputcsv($fh, $headers);
+        if (! empty($headers)) {
+            fputcsv($fh, $headers);
+        }
 
-        foreach ($this->data as $row) {
+        foreach (array_values($this->data) as $row) {
             fputcsv($fh, $row);
         }
 
