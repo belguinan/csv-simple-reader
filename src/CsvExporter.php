@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace Belguinan;
 
 class CsvExporter
 {
@@ -118,9 +118,13 @@ class CsvExporter
             fputcsv($fh, $row);
         }
 
-        $string = ob_get_clean();
-
-        ob_end_clean();
+        try {
+            if ($string = ob_get_contents()){
+                ob_end_clean();
+            } 
+        } catch (\Exception $e) {
+            $string = '';   
+        }
 
         $this->setCsvResult($string);
 
