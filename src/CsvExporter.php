@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace Belguinan;
 
 class CsvExporter
 {
