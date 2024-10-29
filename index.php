@@ -1,6 +1,6 @@
 <?php
 
-use App\CsvExporter;
+use Belguinan\CsvExporter;
 
 /**
  * Usage :
