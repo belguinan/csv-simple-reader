@@ -2,6 +2,7 @@
     "name": "belguinan/csv-simple-reader",
     "description": "CSV files made simple.",
     "type": "package",
+    "license": "MIT",
     "authors": [
         {
             "name": "noureddine belguinan",
