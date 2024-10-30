@@ -1,18 +1,43 @@
 {
     "name": "belguinan/csv-simple-reader",
-    "description": "CSV files made simple.",
-    "type": "package",
+    "description": "A lightweight, zero-dependency PHP library for reading, writing, and exporting CSV files. Works with PHP 5.4 and above.",
+    "type": "library",
+    "keywords": [
+        "csv",
+        "export",
+        "import",
+        "reader",
+        "writer",
+        "php-csv",
+        "csv-reader",
+        "csv-writer",
+        "csv-export"
+    ],
+    "homepage": "https://github.com/belguinan/csv-simple-reader",
     "license": "MIT",
     "authors": [
         {
-            "name": "noureddine belguinan",
-            "email": "nor15dine@gmail.com"
+            "name": "Noureddine Belguinan",
+            "email": "nor15dine@gmail.com",
+            "homepage": "https://github.com/belguinan",
+            "role": "Developer"
         }
     ],
+    "require": {
+        "php": ">=5.4.0"
+    },
     "autoload": {
         "psr-4": {
             "Belguinan\\": "src/"
         }
     },
-    "require": {}
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "support": {
+        "issues": "https://github.com/belguinan/csv-simple-reader/issues",
+        "source": "https://github.com/belguinan/csv-simple-reader"
+    }
 }
